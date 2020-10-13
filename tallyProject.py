@@ -11,7 +11,7 @@ numOfLoops=1
 for i in range(1,(numOfPeople+1),1):
     #Draw a diagonal for every five people
     if (numOfLoops%5)!=0:
-        # #Draw asingle line for an individual person
+        # #Draw a single line for an individual person
         pendown()
         left(90)
         forward(25)
@@ -40,7 +40,7 @@ for i in range(1,(numOfPeople+1),1):
     numOfLoops+=1
 
 
-input("Enter Anything her and hit ENTER to stop: ")
+input("Enter Anything here and hit ENTER to stop: ")
 
 
 #Move the turtle from one tally to the next
